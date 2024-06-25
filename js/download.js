@@ -13,7 +13,7 @@
     document.getElementById('downloadgnacad1').addEventListener('click', function() {
         var filePath2 = '/app/QdpCAD_v7.apk';
         var anchor2 = document.createElement('a');
-        anchor2.href = filePath2;
+        anchor2.href = filePath2;jj
         anchor2.download = 'QdpCAD_v7.apk';
          anchor2.click();
     });
