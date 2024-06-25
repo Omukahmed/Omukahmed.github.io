@@ -1,12 +1,14 @@
     // QuadDividerPro 
     document.getElementById('downloadqd').addEventListener('click', function() {
-        var filePath1 = '/app/QuadDividerPro_v1.3.apk';
+        var filePath1 = '/app/QuadDividerPro_8.0.1.apk';
         var anchor1 = document.createElement('a');
         anchor1.href = filePath1;
-        anchor1.download = 'QuadDividerPro_v1.3.apk';
+        anchor1.download = 'QuadDividerPro_8.0.1.apk';
         anchor1.click();
     });
-    
+
+
+    /**
     // GnaCAD v
     document.getElementById('downloadgnacad1').addEventListener('click', function() {
         var filePath2 = '/app/QdpCAD_v7.apk';
@@ -43,3 +45,4 @@ document.getElementById('image_meter').addEventListener('click', function() {
         anchor5.download = 'image_meter.apk';
         anchor5.click();
     });
+**/
