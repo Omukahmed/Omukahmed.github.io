@@ -8,7 +8,7 @@
     });
 
 
-    /**
+    
     // GnaCAD v
     document.getElementById('downloadgnacad1').addEventListener('click', function() {
         var filePath2 = '/app/QdpCAD_v7.apk';
@@ -27,6 +27,8 @@
         anchor4.download = 'banglaconverter.apk';
         anchor4.click();
     });
+
+/**
 
 // satellite map
     document.getElementById('satellite').addEventListener('click', function() {
